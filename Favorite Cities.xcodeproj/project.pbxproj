@@ -14,6 +14,7 @@
 		AE09F60D23C79EA200DA329D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE09F60B23C79EA200DA329D /* Main.storyboard */; };
 		AE09F60F23C79EA600DA329D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE09F60E23C79EA600DA329D /* Assets.xcassets */; };
 		AE09F61223C79EA600DA329D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE09F61023C79EA600DA329D /* LaunchScreen.storyboard */; };
+		AE09F61C23C7A0E400DA329D /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE09F61B23C7A0E400DA329D /* Cities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AE09F60E23C79EA600DA329D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE09F61123C79EA600DA329D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE09F61323C79EA600DA329D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE09F61B23C7A0E400DA329D /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				AE09F60323C79EA200DA329D /* AppDelegate.swift */,
 				AE09F60523C79EA200DA329D /* SceneDelegate.swift */,
+				AE09F61B23C7A0E400DA329D /* Cities.swift */,
 				AE09F60723C79EA200DA329D /* MasterViewController.swift */,
 				AE09F60923C79EA200DA329D /* DetailViewController.swift */,
 				AE09F60B23C79EA200DA329D /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE09F60423C79EA200DA329D /* AppDelegate.swift in Sources */,
+				AE09F61C23C7A0E400DA329D /* Cities.swift in Sources */,
 				AE09F60623C79EA200DA329D /* SceneDelegate.swift in Sources */,
 				AE09F60823C79EA200DA329D /* MasterViewController.swift in Sources */,
 				AE09F60A23C79EA200DA329D /* DetailViewController.swift in Sources */,
